@@ -662,7 +662,7 @@
 		"id": "slide_nav_position",
 		"class": "slideshow_options radio",
 		"available": true,
-		"value": "top",
+		"value": "bottom",
 		"segments": [
 			{
 				"type": "preface",
