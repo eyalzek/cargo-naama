@@ -37,11 +37,7 @@
 			<div class="header_image">
 
 				{{#if_option "header_link_to_index"}}
-					{{#if_any route.search route.is_set}}
-						<a href="{{ site.direct_link }}">
-					{{else}}
-						<a href="{{ site.direct_link }}" rel="show_index">
-					{{/if_any}}
+					<a href="{{ site.direct_link }}">
 				{{/if_option}}
 					<img src="{{ site.header_url }}" {{#if display_options.header_2x}} height="{{ site.header_height_2x }}" width="{{ site.header_width_2x }}" {{else}} height="{{ site.header_height }}" width="{{ site.header_width }}" {{/if}} />
 				{{#if_option "header_link_to_index"}}
@@ -52,7 +48,7 @@
 			{{/if}}
 
 			<div class="header_text">
-				<a href="{{ site.direct_link }}" {{#if_any route.search route.is_set}}{{else}}rel="show_index"{{/if_any}}>
+				<a href="{{ site.direct_link }}">
 					{{{ site.header_text }}}
 				</a>
 			</div>
