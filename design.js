@@ -9,12 +9,12 @@ var Design = {
 		Cargo.Core.KeyboardShortcut.Remove("Right");
 
 		Cargo.Core.KeyboardShortcut.Add("Left", 37, function() {
-			Action.Project.Prev();
+			// Action.Project.Prev();
 			return false;
 		});
 
 		Cargo.Core.KeyboardShortcut.Add("Right", 39, function() {
-			Action.Project.Next();
+			// Action.Project.Next();
 			return false;
 		});
 	},
