@@ -617,15 +617,15 @@ blockquote {
     background-size: contain;
     background-repeat: no-repeat;
     text-align: left;
-    height: 40px;
-    width: 40px;
+    height: 80px;
+    width: 55px;
     overflow: hidden;
     text-indent: -9999px;
     top: 22px; /* slideshow_navigation margin + height = 22px */
     bottom: 0;
     margin-top: auto;
     margin-bottom: auto;
-    right: -40px; /* placed 40px outside right edge of slideshow */
+    right: -70px; /* placed 40px outside right edge of slideshow */
     z-index: 99;
 }
 
@@ -635,15 +635,15 @@ blockquote {
     background-size: contain;
     background-repeat: no-repeat;
     text-align: left;    
-    height: 40px;
-    width: 40px;
+    height: 80px;
+    width: 55px;
     overflow: hidden;
     text-indent: -9999px;
     top: 22px;  /* slideshow_navigation margin + height = 22px */
     bottom: 0;
     margin-top: auto;
     margin-bottom: auto;
-    left: -40px;  /* placed 40px outside left edge of slideshow */
+    left: -70px;  /* placed 40px outside left edge of slideshow */
     z-index: 99;    
 }
 

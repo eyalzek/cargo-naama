@@ -149,7 +149,7 @@
 		"id": "title_in_thumb",
 		"class": "main_options check",
 		"available": true,
-		"value": true,
+		"value": false,
 		"segments": [
 			{
 				"type": "boolean"
@@ -179,7 +179,7 @@
 		"id": "tags_in_thumb",
 		"class": "main_options check",
 		"available": true,
-		"value": true,
+		"value": false,
 		"segments": [
 			{
 				"type": "boolean"
@@ -224,7 +224,7 @@
 		"id": "view_count_in_project",
 		"class": "main_options check",
 		"available": true,
-		"value": false,
+		"value": true,
 		"segments": [
 			{
 				"type": "boolean"
@@ -526,7 +526,7 @@
 		"id": "slide_transition_duration",
 		"class": "slideshow_options input",
 		"available": true,
-		"value": "0.4",
+		"value": "0.2",
 		"allowed": "0-9.",
 		"segments": [
 			{
@@ -550,8 +550,8 @@
 		"class": "slideshow_options check input",
 		"available": true,
 		"value": {
-			"enabled": false,
-			"delay": 2.5
+			"enabled": true,
+			"delay": "6"
 		},
 		"segments": [
 			{
@@ -805,7 +805,7 @@
 		"class": "mobile_options check radio",
 		"available": true,
 		"value": {
-			"enabled": false,
+			"enabled": true,
 			"exclude_tablets": true
 		},
 		"segments": [

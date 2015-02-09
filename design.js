@@ -37,6 +37,10 @@ var Design = {
 		// Resize and position the containing element
 		obj.resizeContainer();
 		Cargo.Plugins.elementResizer.refresh();
+		// $(".slideshow").height(function() {
+		// 	var h = $(window).height();
+		// 	return h;
+		// });
 	},
 
 	groupNavigation: function() {
